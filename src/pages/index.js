@@ -1,21 +1,34 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Image from "../components/image"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO title="tomori homepage" />
+    <Image />
+    <h1>tomori</h1>
+    <hr size="3px" />
+    <p>
+      音楽を嗜んでます<br />
+      Composer, HumanBeatboxer and DJ
+    </p>
+    <div>
+      <h2>Works</h2>
+      <iframe 
+        title="Recent Youtube Contents"
+        width="100%" height="200" src="https://www.youtube.com/embed/?list=UUsVYnVMynZqS6V7D69LM2Zg" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true">
+      </iframe>
+      <iframe 
+        width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" 
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1027182112&color=%235ad6ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+      </iframe>   
+      <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://audiostock.jp/embed?id=847197">
+      </iframe> 
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
