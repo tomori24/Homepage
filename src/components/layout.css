@@ -4,7 +4,9 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 350px;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -85,6 +87,7 @@ sup {
   top: -0.5em;
 }
 img {
+  align-items: center;
   border-style: none;
 }
 svg:not(:root) {
