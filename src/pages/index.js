@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "../components/image"
+import Contacts from "../components/contacts"
 
 const IndexPage = () => (
   <Layout>
@@ -29,6 +30,7 @@ const IndexPage = () => (
       <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://audiostock.jp/embed?id=847197">
       </iframe> 
     </div>
+    <Contacts />
   </Layout>
 )
 
