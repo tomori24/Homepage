@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `tomori HomePage`,
+    title: `tomori-page`,
     description: `音楽活動用サイト`,
     author: `tomori`,
+    pathPrefix: `/Homepage`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
