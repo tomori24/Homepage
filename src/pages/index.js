@@ -7,7 +7,7 @@ import Contacts from "../components/contacts"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="tomori homepage" />
+    <SEO />
     <Image />
     <h1>tomori</h1>
     <hr size="3px" />
