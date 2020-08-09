@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0 auto;
-  width: 350px;
+  width: 700px;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -477,8 +477,8 @@ noscript {
   margin-bottom: 1.45rem;
 }
 iframe {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -486,9 +486,13 @@ iframe {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+.iframely-responsive {
+  height: 300px;
+  padding-bottom: 0;
+}
 hr {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -497,7 +501,7 @@ hr {
   margin-bottom: calc(1.45rem - 1px);
   background: hsla(0, 0%, 0%, 0.2);
   border: none;
-  height: 1px;
+  height: 3px;
 }
 address {
   margin-left: 0;
