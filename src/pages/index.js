@@ -15,23 +15,23 @@ const IndexPage = () => (
       音楽を嗜んでます<br />
       Composer, HumanBeatboxer and DJ
     </p>
-      <div display="inline-block">
+      <div display="block">
       <h2>Works</h2>
         {/* Youtubeの縦横比は560:315 */}
-        <iframe width="70%" height="280" 
+        <iframe className="youtube"
           src="https://www.youtube.com/embed/pC_7lrh6mGs" 
           frameborder="0" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen="true">
         </iframe>
-        <iframe width="70%" height="280" 
+        <iframe className="youtube"
           src="https://www.youtube.com/embed/u1KIeSVmu_I" 
           frameborder="0" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen="true">
         </iframe>
-        <iframe 
-          width="70%" height="300" scrolling="no" frameborder="no" allow="autoplay" 
+        <iframe className="soundcloud" 
+          scrolling="no" frameborder="no" allow="autoplay" 
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1027182112&color=%235ad6ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
         </iframe> 
         {/* <div class="iframely-embed">

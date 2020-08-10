@@ -5,13 +5,20 @@ html {
 }
 body {
   display: flex;
+  text-align: center;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 300px;
   margin: 0 auto;
   width: 700px;
-  text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (max-width: 700px){
+  body{
+    width: 300px;
+    max-width: 300px;
+  }
 }
 article,
 aside,
@@ -477,8 +484,8 @@ noscript {
   margin-bottom: 1.45rem;
 }
 iframe {
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-left: 0%;
+  margin-right: 0%;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -486,9 +493,23 @@ iframe {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-.iframely-responsive {
-  height: 300px;
-  padding-bottom: 0;
+iframe.youtube{
+  width: 560px;
+  height: 315px;
+}
+iframe.soundcloud{
+  width: 560px;
+  height: 400px;
+}
+@media screen and (max-width: 700px){
+    iframe.youtube{
+      width: 80vw;
+      height: calc(80vw * 0.56);
+    }
+    iframe.soundcloud{
+      width: 80vw;
+      height: calc(80vw * 0.6);
+    }
 }
 hr {
   margin-left: 20%;
