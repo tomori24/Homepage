@@ -10,13 +10,11 @@ const IndexPage = () => (
     <SEO />
     <Image />
     <h1>tomori</h1>
+    <h4>Composer, HumanBeatboxer and DJ</h4>
+    <Contacts />
     <hr />
-    <p>
-      音楽を嗜んでます<br />
-      Composer, HumanBeatboxer and DJ
-    </p>
       <div display="block">
-      <h2>Works</h2>
+      <h3>Works</h3>
         {/* Youtubeの縦横比は560:315 */}
         <iframe className="youtube"
           src="https://www.youtube.com/embed/pC_7lrh6mGs" 
@@ -41,7 +39,6 @@ const IndexPage = () => (
           </div>
         </div> */}
       </div>
-    <Contacts />
   </Layout>
 )
 
