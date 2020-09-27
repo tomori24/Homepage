@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `tomori-page`,
+    title: `tomori music`,
     description: `音楽活動用サイト`,
     author: `tomori`,
     pathPrefix: `/Homepage`
